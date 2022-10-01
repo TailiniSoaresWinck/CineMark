@@ -1,0 +1,44 @@
+#nav-bar{
+    display:flex;   
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 3rem;
+    background-color: #00060e;
+}
+
+#nav-bar h2 a{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#nav-bar form{
+    gap: .5rem;
+    display: flex;
+}
+
+#nav-bar input{
+    font-size: 2.5vh;
+    padding: .4rem .8rem;
+    border-radius: 8px;
+    border: none;
+}
+
+#nav-bar form button{
+    background-color: #ff8006;
+    border: #ff8006 2px solid;
+    border-radius: 8px;
+    color: #FFF;
+    padding: .4rem;
+    font-size: 2.5vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+#nav-bar form button:hover{
+    background-color: transparent;
+    border: #ad5808 2px solid;
+}
